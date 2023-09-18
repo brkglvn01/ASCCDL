@@ -1,0 +1,7 @@
+Implementation of the ASC Color Decision List.
+
+Calcuates and plots input to output with Slope, Offset, Power, and Lift controls.
+
+Bottom left is saturation controls for user implemented RGB values.
+
+Everything is normalized 0-1, with Slope, Power, and Lift accepting inputs .5 to 2 and Offset accepting -.5 to .5.

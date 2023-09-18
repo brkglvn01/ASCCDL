@@ -1,0 +1,71 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2682483071" file="D:\ASCCDL_Lab\ASCCDL_Lab\Lab01_UserApp.prj" location="D:\ASCCDL_Lab\ASCCDL_Lab" name="Lab01_UserApp" target="target.mlapps" target-name="Package App">
+    <param.appname>Lab01_UserApp</param.appname>
+    <param.authnamewatermark>Brooke Galvin</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>Implementing the ASC Color Decision List for a color
+manipulation/communication 10-bit input system.</param.summary>
+    <param.description>Implementing the ASC Color Decision List for a color
+manipulation/communication 10-bit input system. 
+
+Slope, power, and lift values are constrained between .5 and 2
+Offset is constrained -.5 to .5
+R, G, B, and saturation 0 to 1</param.description>
+    <param.screenshot>C:\Users\brkgl\AppData\Local\Temp\tp9056bb2e_3d41_4d2b_8118_5debb91bb322.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>ad195b47-21fc-4f7f-ad02-a4d7d725a48e</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Lab01_UserApp.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\apply_saturation.m</file>
+      <file>${PROJECT_ROOT}\apply_sop.m</file>
+      <file>${PROJECT_ROOT}\src.mat</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="D:\ASCCDL_Lab" name="ASCCDL_Lab" optional="false">D:\ASCCDL_Lab\ASCCDL_Lab</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
